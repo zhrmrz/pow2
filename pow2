@@ -1,0 +1,11 @@
+class Sol:
+    def pow2(self,n):
+        while n>2:
+            n=n/2
+        if n==2:
+            return True
+        return False
+    
+if __name__ == '__main__':
+    p1=Sol()
+    print(p1.pow2(5))
